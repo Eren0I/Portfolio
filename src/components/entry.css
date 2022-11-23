@@ -8,7 +8,7 @@ padding-left: 3rem;
 padding-top: 10rem;
 }
 .entry__name{
-    background-image: url('images/bg.gif');
+    background-image: url('public/images/bg.gif');
     background-size: cover;
     background-clip: text;
     -webkit-background-clip: text;
@@ -33,7 +33,7 @@ padding-top: 10rem;
     margin-top: 2rem;
 }
 .cursor{
-    background-image: url('images/bg.gif');
+    background-image: url('public/images/bg.gif');
     background-size: cover;
     background-clip: text;
     -webkit-background-clip: text;
