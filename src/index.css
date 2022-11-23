@@ -1,0 +1,39 @@
+*{
+  font-family: 'Gentium Plus', serif
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background-color: #121629;
+}
+::-webkit-scrollbar-thumb{
+  background: #eebbc3;
+  border-radius: 10px;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  place-content: center;
+  background: linear-gradient(90deg, #cfd8ee 0%, #a0bbfa 25%,#8fd7e9 50%,#acdfbe 75% ,#d1ffed 100%);
+  overflow-x: hidden;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
+}
+.social{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+  list-style: none;
+  width: 100%;
+  margin-top: 15rem;
+}
+
