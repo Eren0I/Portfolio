@@ -27,6 +27,8 @@ padding-top: 10rem;
 .typewrite{
     font-family: 'Inter', sans-serif;
     font-size: 3rem;
+     background-clip: text;
+    -webkit-background-clip: text;
     text-align: left;
     margin-top: 2rem;
 }
@@ -34,6 +36,7 @@ padding-top: 10rem;
     background-image: url('../assets/bg.gif');
     background-size: cover;
     background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
     animation: blink 1s linear infinite ;
 }
