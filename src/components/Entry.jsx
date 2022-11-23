@@ -38,8 +38,8 @@ const typeWriter= async ()=>{
                 <h1 className='entry__name'>Hi, I'm <span >Eren</span></h1>
                 <h2  className='entry__name'><span className='typewrite'></span><span  className='cursor'>/</span></h2>
     </div>
-    <div className='entry__img'>
-        <img onLoad={typeWriter} className='entry__imgs' src='images/entryimg.png'/>
+    <div onLoad={typeWriter} className='entry__img'>
+        <img  className='entry__imgs' src='images/entryimg.png'/>
 </div>
     </div>
   )
