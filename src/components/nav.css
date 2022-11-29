@@ -27,15 +27,19 @@ transition: all 0.3s cubic-bezier(.25,.8,.25,1); */
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     z-index: 1;
     height: 30px;
     transition-timing-function: ease-in;
     transition: all 0.5s;
 }
 .nav__black{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     background-color: white;
- 
+    box-shadow: rgb(255 255 255 / 0%) 0px 1px 1px inset, rgb(0 0 0 / 0%) 0px -1px 3px inset;
 }
 
 .nav__elements{

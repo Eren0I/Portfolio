@@ -13,6 +13,16 @@
     grid-gap: 50px;
     margin-top: 100px;
 }
+@media screen and (max-width: 768px){
+    .projects{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (max-width: 480px){
+    .projects{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 .project__card{
     display: flex;
     flex-direction: column;
@@ -46,4 +56,8 @@
 }
 .project__card > p{
     margin: 0;
+}
+.impw:hover{
+background-image: url("../assets/proj3.png");
+background-size: cover;
 }

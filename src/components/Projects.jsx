@@ -19,10 +19,12 @@ const Projects = () => {
         <a href='https://eren0i.github.io/gastroW/'>View</a>
 </div>
 <div className='project__card'>
-        <img className='proj_img' src='images/project3.png'/>
+        <img className='proj_img impw' src='images/project3.png'/>
         <h2>ImpactW</h2>
         <p>E-commerce Cloth Brand</p>
-        <a href='https://eren0i.github.io/React-Ecommerce-ImpactW/'>View</a>
+        <p>V2 #syncFusion #Tailwind #use_Context #darkTheme #Bootstrap</p>
+        <a href='https://eren0i.github.io/React-Ecommerce-ImpactW/'>Viewv1</a>
+        <a href='https://eren0i.github.io/ImpactW-Dashboard/'>Viewv2</a>
 </div>
 <div className='project__card'>
         <img className='proj_img' src='images/project4.png'/>
@@ -37,10 +39,11 @@ const Projects = () => {
         <a href='https://friendly-cranachan-274ccd.netlify.app/'>View</a>
 </div>
 <div className='project__card'>
-        <img className='proj_img' src='images/project6.png'/>
-        <h2>Simon Game</h2>
-        <p>Pure Javascript</p>
-        <a href='https://eren0i.github.io/SimonGame/'>View</a>
+        <img className='proj_img' src='images/projc.png'/>
+        <h2>ImpactC</h2>
+        <p>Web3,MetaMask integration can use to send money to ETH wallet</p>
+        <p>#smart_contract #use_Context #Tailwind #Gradient #CoinAPI #gsap</p>
+        <a href='https://eren0i.github.io/ImpactC/'>View</a>
 </div>
    </div>
    </div>

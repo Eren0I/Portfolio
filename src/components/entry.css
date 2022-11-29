@@ -6,6 +6,20 @@ align-items:flex-start;
 justify-content: space-between;
 padding-left: 3rem;
 padding-top: 10rem;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 50px;
+}
+
+@media screen and (max-width: 768px){
+    .entry{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (max-width: 480px){
+    .entry{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 .entry__name{
     background-image: url('../assets/bg.gif');
