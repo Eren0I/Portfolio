@@ -9,6 +9,7 @@ padding-top: 10rem;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 grid-gap: 50px;
+z-index: 500;
 }
 
 @media screen and (max-width: 768px){
@@ -28,7 +29,7 @@ grid-gap: 50px;
     -webkit-background-clip: text;
     color: transparent;
     font-family: 'Inter', sans-serif;
-    font-size: 5rem;
+    font-size: 4.5rem;
     text-align: left;
 }
 .entry__imgs{

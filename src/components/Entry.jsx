@@ -35,7 +35,7 @@ const typeWriter= async ()=>{
 
         <div className='entry'>
             <div className='entry__text'>
-                <h1 className='entry__name'>Hi, I'm <span >Eren</span></h1>
+                <h1 className='entry__name'>Hi, I'm <span>Eren</span></h1>
                 <h2  className='entry__name'><span className='typewrite'></span><span  className='cursor'>/</span></h2>
     </div>
     <div  className='entry__img'>
