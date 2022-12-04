@@ -39,7 +39,7 @@ const Projects = () => {
         <a href='https://friendly-cranachan-274ccd.netlify.app/'>View</a>
 </div>
 <div className='project__card'>
-        <img className='proj_img' src='images/projc.png'/>
+        <img className='proj_img' src='images/projC.png'/>
         <h2>ImpactC</h2>
         <p>Web3,MetaMask integration can use to send money to ETH wallet</p>
         <p>#smart_contract #use_Context #Tailwind #Gradient #CoinAPI #gsap</p>
